@@ -20,6 +20,34 @@
 
 <body>
   <div class="container">
+    <div>
+      <table class="table">
+        <tbody>
+          <tr>
+            <th scope="row">Part I Targets</th>
+            <td><a href="/flexible/square/:the_num">Flexible Square Example</a></td>
+            <td><a href="/flexible/square_root/:input">Flexible Square Root Example</a></td>
+            <td><a href="/flexible/payment/:basis_points/:time_yrs/:loan_amount">Flexible Payment
+            Example</a></td>
+            <td><a href="/flexible/random/:num1/:num2">Flexible Random Example</a></td>
+          </tr>
+          <tr>
+            <th scope="row">Part II Targets</th>
+            <td><a href="/square/new">Square Form</a></td>
+            <td><a href="/square_root/new">Square Root Form</a></td>
+            <td><a href="/payment/new">Payment Form</a></td>
+            <td><a href="/random/new">Random Form</a></td>
+          </tr>
+          <tr>
+            <th scope="row">Part III Targets</th>
+            <td>Word Count Form</td>
+            <td>Stats Form</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
     <%= yield %>
   </div>
 
@@ -28,5 +56,8 @@
       Git
     </a>
   </div>
+  
+
+  
 </body>
 </html>
